@@ -16,6 +16,13 @@ export const zhSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "webpack",
+      icon: "book",
+      prefix: "webpack/",
+      link: "webpack/",
+      children: "structure",
+    },
     "intro",
     "slides",
   ],

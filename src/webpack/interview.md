@@ -1,23 +1,24 @@
 ---
 # 这是文章的标题
-title: 页面配置
+title: webpack面试题
 # 你可以自定义封面图片
-cover: /assets/images/cover1.jpg
+cover: /assets/images/cover2.jpg
 # 这是页面的图标
 icon: file
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
-author: Ms.Hope
+author: Mr.Chuzs
 # 设置写作时间
-date: 2020-01-01
+date: 2023-08-02
 # 一个页面可以有多个分类
 category:
-  - 使用指南
+  - webpack
+  - 面试题
 # 一个页面可以有多个标签
 tag:
-  - 页面配置
-  - 使用指南
+  - 面试题
+  - 打包工具
 # 此页面会在文章列表置顶
 sticky: true
 # 此页面会出现在文章收藏中
@@ -27,21 +28,24 @@ star: true
 
 footer: 这是测试显示的页脚
 # 你可以自定义版权信息
-copyright: 无版权
+copyright: Copyright © 2023 Mr.Chuzs
 ---
 
-`more` 注释之前的内容被视为文章摘要。
+`more` webpack面试题。
 
 <!-- more -->
 
-## 页面信息
+## webpack与grunt、gulp的不同？
 
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
+  三者都是前端构建工具，grunt和gulp在早期比较流行，现在webpack相对来说比较主流，不过一些轻量化的任务还是会用gulp来处理，比如单独打包CSS文件等。
+  grunt和gulp是基于任务和流（Task、Stream）的。类似jQuery，找到一个（或一类）文件，对其做一系列链式操作，更新流上的数据， 整条链式操作构成了一个任务，多个任务就构成了整个web的构建流程。
+  webpack是基于入口的。webpack会自动地递归解析入口所需要加载的所有资源文件，然后用不同的Loader来处理不同的文件，用Plugin来扩展webpack功能。
+所以总结一下：
 
-- 作者设置为 Ms.Hope。
-- 写作日期为 2020 年 1 月 1 日
-- 分类为 “使用指南”
-- 标签为 “页面配置” 和 “使用指南”
+- 从构建思路来说
+gulp和grunt需要开发者将整个前端构建过程拆分成多个`Task`，并合理控制所有`Task`的调用关系 webpack需要开发者找到入口，并需要清楚对于不同的资源应该使用什么Loader做何种解析和加工
+- 对于知识背景来说
+gulp更像后端开发者的思路，需要对于整个流程了如指掌 webpack更倾向于前端开发者的思路
 
 ## 页面内容
 

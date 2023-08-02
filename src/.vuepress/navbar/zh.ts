@@ -4,6 +4,12 @@ export const zhNavbar = navbar([
   "/",
   "/demo/",
   {
+    text: "Webpack",
+    icon: "pen-to-square",
+    prefix: "/webpack/",
+    children: ["sourceCode", "interview"],
+  },
+  {
     text: "博文",
     icon: "pen-to-square",
     prefix: "/posts/",
