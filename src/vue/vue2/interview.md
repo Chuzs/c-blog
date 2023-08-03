@@ -13,14 +13,14 @@ author: Mr.Chuzs
 date: 2023-08-02
 # 一个页面可以有多个分类
 category:
-  - webpack
+  - vue
   - 面试题
 # 一个页面可以有多个标签
 tag:
   - 面试题
-  - 打包工具
+  - 前端框架
 # 此页面会在文章列表置顶
-sticky: true
+sticky: false
 # 此页面会出现在文章收藏中
 star: true
 # 你可以自定义页脚
