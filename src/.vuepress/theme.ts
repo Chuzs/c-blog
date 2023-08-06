@@ -13,13 +13,18 @@ export default hopeTheme({
     url: "https://Chuzs.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: [
+    "fontawesome-with-brands",
+    "//at.alicdn.com/t/c/font_4199360_k0jwoy20q2.css",
+  ],
 
   logo: "/logo.svg",
 
   repo: "https://gitee.com/chuzs/c-blog",
 
   docsDir: "src",
+
+  fullscreen: true,
 
   blog: {
     medias: {
@@ -90,7 +95,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "你走的每一步都算数",
 
       displayFooter: true,
 
@@ -116,11 +121,11 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    // comment: {
-    //   // You should generate and use your own comment service
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      // You should generate and use your own comment service
+      provider: "Waline",
+      serverURL: "https://waline-comment.vuejs.press",
+    },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {

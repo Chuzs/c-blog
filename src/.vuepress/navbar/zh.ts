@@ -5,13 +5,13 @@ export const zhNavbar = navbar([
   // "/demo/",
   {
     text: "Webpack",
-    icon: "webpack",
+    icon: "iconfont icon-webpack",
     prefix: "/webpack/",
     children: ["sourceCode", "interview"],
   },
   {
     text: "Vue",
-    icon: "vue-icon",
+    icon: "iconfont icon-vuejs",
     prefix: "/vue/",
     children: [
       {

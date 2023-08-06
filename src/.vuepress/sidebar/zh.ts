@@ -18,14 +18,14 @@ export const zhSidebar = sidebar({
     // },
     {
       text: "webpack",
-      icon: "book",
+      icon: "iconfont icon-webpack",
       prefix: "webpack/",
       link: "webpack/",
       children: "structure",
     },
     {
       text: "Vue",
-      icon: "book",
+      icon: "iconfont icon-vuejs",
       prefix: "vue/",
       link: "vue/",
       children: "structure",

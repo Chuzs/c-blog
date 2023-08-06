@@ -4,7 +4,7 @@ title: 面试题
 # 你可以自定义封面图片
 cover: /assets/images/cover2.jpg
 # 这是页面的图标
-icon: file
+icon: fa-solid fa-file-lines
 # 这是侧边栏的顺序
 order: 1
 # 设置作者

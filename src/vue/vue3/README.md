@@ -1,7 +1,7 @@
 ---
 title: Vue3
 index: false
-icon: laptop-code
+icon: iconfont icon-vuejs
 category:
   - Vue
 ---
