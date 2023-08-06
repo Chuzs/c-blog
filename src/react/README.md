@@ -2,6 +2,7 @@
 title: React
 index: false
 icon: fa-brands fa-react
+article: false
 category:
   - react
 ---

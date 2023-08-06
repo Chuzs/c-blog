@@ -2,6 +2,7 @@
 title: Vue3
 index: false
 icon: iconfont icon-vuejs
+article: false
 category:
   - vue
 ---

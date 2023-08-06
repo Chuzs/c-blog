@@ -2,6 +2,7 @@
 title: Webpack
 index: false
 icon: iconfont icon-webpack
+article: false
 category:
   - webpack
 ---
