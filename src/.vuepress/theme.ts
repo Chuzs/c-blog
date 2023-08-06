@@ -123,8 +123,11 @@ export default hopeTheme({
 
     comment: {
       // You should generate and use your own comment service
-      provider: "Waline",
-      serverURL: "https://waline-comment.vuejs.press",
+      provider: "Giscus",
+      repo: "chuzs/c-blog",
+      repoId: "R_kgDOKClwaQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOKClwac4CYYcT",
     },
 
     // all features are enabled for demo, only preserve features you need here
