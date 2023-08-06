@@ -10,13 +10,13 @@ order: 1
 # 设置作者
 author: Mr.Chuzs
 # 设置写作时间
-date: 2023-08-02
+date: 2023-08-06
 # 一个页面可以有多个分类
 category:
   - 源码
 # 一个页面可以有多个标签
 tag:
-  - vue
+  - react
   - 前端框架
 # 此页面会在文章列表置顶
 sticky: true
@@ -30,7 +30,7 @@ footer: 这是测试显示的页脚
 copyright: Copyright © 2023 Mr.Chuzs
 ---
 
-`more` vue源码解析。
+`more` react源码解析
 
 <!-- more -->
 

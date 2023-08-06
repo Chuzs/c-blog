@@ -4,7 +4,7 @@ title: 面试题
 # 你可以自定义封面图片
 cover: /assets/images/cover2.jpg
 # 这是页面的图标
-icon: file
+icon: fa-solid fa-file-lines
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
@@ -13,11 +13,10 @@ author: Mr.Chuzs
 date: 2023-08-02
 # 一个页面可以有多个分类
 category:
-  - webpack
   - 面试题
 # 一个页面可以有多个标签
 tag:
-  - 面试题
+  - webpack
   - 打包工具
 # 此页面会在文章列表置顶
 sticky: true

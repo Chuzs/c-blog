@@ -1,9 +1,9 @@
 ---
-title: Vue3
+title: React
 index: false
-icon: iconfont icon-vuejs
+icon: fa-brands fa-react
 category:
-  - vue
+  - react
 ---
 
 

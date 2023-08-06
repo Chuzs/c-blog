@@ -3,7 +3,7 @@ title: Vue2
 index: false
 icon: iconfont icon-vuejs
 category:
-  - Vue
+  - vue
 ---
 
 

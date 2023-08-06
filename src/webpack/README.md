@@ -1,7 +1,7 @@
 ---
 title: Webpack
 index: false
-icon: laptop-code
+icon: iconfont icon-webpack
 category:
   - webpack
 ---
