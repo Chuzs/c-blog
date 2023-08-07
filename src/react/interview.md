@@ -30,8 +30,12 @@ footer: 你走的每一步都算数
 copyright: Copyright © 2023 Mr.Chuzs
 ---
 
-`more` react面试题
+`React` 面试题
 
 <!-- more -->
+1. 浅谈React工作原理
+::: tip 答案示例
 
-## 待补充内容
+Reactjs起源于Facebook内部项目，是一个用来构建用户界面的js库，相当于MVC架构中的V层框架，React把每一个组件当成了一个状态机，组件内部通过state来维护组件状态的变化，当组件状态发生变化时，React通过虚拟DOM技术来增量并且高效的更新真实DOM。
+
+:::
