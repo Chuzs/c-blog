@@ -25,9 +25,9 @@ star: true
 # 你可以自定义页脚
 
 
-footer: 这是测试显示的页脚
+# footer: 这是测试显示的页脚
 # 你可以自定义版权信息
-copyright: Copyright © 2023 Mr.Chuzs
+# copyright: Copyright © 2023 Mr.Chuzs
 ---
 
 `more` webpack源码解析。
