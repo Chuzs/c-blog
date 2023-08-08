@@ -36,6 +36,25 @@ export const zhNavbar = navbar([
     children: ["sourceCode", "interview"],
   },
   {
+    text: "通信工程师中级",
+    icon: "iconfont icon-add_lan-01",
+    prefix: "/communicationEngineer/",
+    children: [
+      {
+        text: "通信专业务实--互联网技术",
+        icon: "pen-to-square",
+        prefix: "internetTechnology/",
+        children: ["computerNetworksProtocols", "lan"],
+      },
+      // {
+      //   text: "通信专业综合能力",
+      //   icon: "pen-to-square",
+      //   prefix: "comprehensiveAbility/",
+      //   children: ["sourceCode", "interview"],
+      // },
+    ],
+  },
+  {
     text: "V2 文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
