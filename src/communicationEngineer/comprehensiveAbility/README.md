@@ -1,5 +1,5 @@
 ---
-title: 通信专业实务--互联网技术
+title: 通信专业综合能力
 index: false
 icon: iconfont icon-add_lan-01
 article: false

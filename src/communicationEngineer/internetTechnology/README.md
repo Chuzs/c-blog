@@ -1,7 +1,7 @@
 ---
 title: 通信专业实务--互联网技术
 index: false
-icon: fa-brands fa-react
+icon: iconfont icon-add_lan-01
 article: false
 category:
   - 通信工程师
