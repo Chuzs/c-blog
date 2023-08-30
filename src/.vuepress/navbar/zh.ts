@@ -44,7 +44,7 @@ export const zhNavbar = navbar([
         text: "通信专业务实--互联网技术",
         icon: "pen-to-square",
         prefix: "internetTechnology/",
-        children: ["computerNetworksProtocols", "lan"],
+        children: ["computerNetworksProtocols", "lan", "internet"],
       },
       // {
       //   text: "通信专业综合能力",
