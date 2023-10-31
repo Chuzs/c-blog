@@ -55,6 +55,12 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "JS",
+    icon: "iconfont icon-react",
+    prefix: "/js/",
+    children: ["mouseClick"],
+  },
+  {
     text: "V2 文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
