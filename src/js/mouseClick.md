@@ -19,13 +19,13 @@ tag:
   - js
   - css
 # 此页面会在文章列表置顶
-sticky: false
+sticky: true
 # 此页面会出现在文章收藏中
-star: false
+star: true
 # 你可以自定义页脚
 # footer: 这是测试显示的页脚
 # 你可以自定义版权信息
-copyright: Copyright © 2023 Mr.Chuzs
+# copyright: Copyright © 2023 Mr.Chuzs
 ---
 
 `more` CSS实现鼠标点击效果，支持iframe。在iframe使用可能涉及跨域问题
@@ -202,4 +202,5 @@ document.body.addEventListener("click", function (e) {
     circle.remove();
   }, 1000);
 });
+
 ```
