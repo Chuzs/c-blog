@@ -160,10 +160,11 @@ export default hopeTheme(
         katex: true,
         mark: true,
         mermaid: true,
+        plantuml: true,
         playground: {
           presets: ["ts", "vue"],
         },
-        presentation: ["highlight", "math", "search", "notes", "zoom"],
+        // presentation: ["highlight", "math", "search", "notes", "zoom"],
         stylize: [
           {
             matcher: "Recommended",

@@ -13,3 +13,4 @@ category:
 ## 目录
 
 - [ID3算法](ID3Algorithm.md)
+- [C4.5算法](C4dot5Algorithm.md)
