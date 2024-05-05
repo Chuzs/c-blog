@@ -7,7 +7,7 @@ export const zhNavbar = navbar([
     text: "Webpack",
     icon: "iconfont icon-webpack",
     prefix: "/webpack/",
-    children: ["sourceCode", "interview"],
+    children: ["sourceCode", "interview", "principle"],
   },
 
   {
