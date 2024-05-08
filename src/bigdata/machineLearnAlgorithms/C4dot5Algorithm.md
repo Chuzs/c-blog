@@ -6,7 +6,7 @@ cover: /assets/images/cover2.jpg
 # 这是页面的图标
 icon: fa-solid fa-file-lines
 # 这是侧边栏的顺序
-order: 1
+order: 2
 # 设置作者
 author: Mr.Chuzs
 # 设置写作时间

@@ -21,12 +21,12 @@ projects:
   - icon: book
     name: 通信专业务实--互联网技术
     desc: 书籍详细描述
-    link: /communicationEngineer/internetTechnology
+    link: /communicationEngineer/internetTechnology/
 
   - icon: book
     name: 通信专业综合能力
     desc: 书籍详细描述
-    link: /communicationEngineer/comprehensiveAbility
+    link: /communicationEngineer/comprehensiveAbility/
 
   # - icon: article
   #   name: 文章名称
