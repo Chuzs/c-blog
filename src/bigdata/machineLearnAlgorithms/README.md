@@ -14,3 +14,4 @@ category:
 
 - [ID3算法](ID3Algorithm.md)
 - [C4.5算法](C4dot5Algorithm.md)
+- [CART决策树](CART.md)

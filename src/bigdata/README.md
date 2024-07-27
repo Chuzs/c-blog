@@ -10,4 +10,4 @@ category:
 
 ## 目录
 
-- [机器学习算法](machineLearnAlgorithms)
+- [机器学习算法](machineLearnAlgorithms/)
